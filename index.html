@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Mario</title>
+    <link rel="shortcut icon" href="./source/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./source/css/reset.css">
+    <link rel="stylesheet" href="./source/css/style.css">
+    <link rel="stylesheet" href="./source/css/responsive.css" !important>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="video-background">
+        <video class="video" autoplay loop muted src="./source/video/video-mario.mp4" type="video">
+
+    </div>
+
+    <header class="cabecalho">
+        <a href="#">
+            <img class="logo" src="./source/imagens/logo-chapeu-mario.png" alt="Logo do Chapeu do Mario">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./source/imagens/titulo.png" alt="Imagem do titulo do Super Mario Bros">
+            <p class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officia animi
+                voluptatibus veniam tenetur sint nesciunt at cupiditate quisquam consectetur odit neque enim, ipsam
+                harum non numquam dolor impedit nisi! </p>
+            <button class="botao-trailer">Veja o Trailer</button>
+        </div>
+        <img class="mario" src="./source/imagens/super-mario-chars.png" alt="">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560px" height="315px"
+                    src="https://www.youtube.com/watch?v=CcouC0DcFJA"
+                    title="Trailer Oficial" frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+<script src="./source/js/index.js"></script>
+
+</body>
+
+</html>
